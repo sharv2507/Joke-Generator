@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+:root{
+    --background-color: #f1f5f9;
+    --button-color: #1e293b;
+    --font:'Kanit', sans-serif;
+    --bars: #3f3f46;
+}
+
+body{
+    margin: 0px;
+    font-family: var(--font);
+}
+.body{
+    text-align: center;
+    background-color: var(--background-color);
+}
+#btn-jokecall{
+    background-color: var(--button-color);
+    color: #fafafa;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 0.50rem;
+    font-size: larger;
+    font-family: var(--font);
+}
+.header{
+    background-color: var(--bars);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    color:#fffbeb;
+    padding: 1px;
+}
+.footer{
+    background-color: var(--bars);
+    border-top-right-radius: 1rem;
+    color:#fffbeb;
+    padding: 1px;
+}
+.joke-display{
+    display: block;
+    height: 50vh;
+    align-items: center;
+    text-align: center;
+    padding: 35px;
+}
