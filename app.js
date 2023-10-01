@@ -6,7 +6,7 @@ function printting (_something){
     
 }
 
-const url = "https://v2.jokeapi.dev/joke/Any";
+const url = "https://v2.jokeapi.dev/joke/Any?blacklistFlags=racist,sexist,explicit";
 
 
 btnTrigger.addEventListener("click", ()=> {
